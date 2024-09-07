@@ -4,7 +4,7 @@ import CommonHeading from './CommonHeading'
 export default function ContactSupport() {
   return (
     <div className='contctSprtWrrpr'>
-      <CommonHeading ContentHeader="Contact Support" />
+      <CommonHeading ContentHeader="Contact Support Page" />
     </div>
   )
 }
