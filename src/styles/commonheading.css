@@ -1,0 +1,16 @@
+.eachPageHdng {
+    width: 100%;
+    padding: 16px 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+.eachPgeContntHdr {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+}
+.backBtnPic {
+    transform: rotate(180deg);
+}
