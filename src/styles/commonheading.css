@@ -1,10 +1,11 @@
 .eachPageHdng {
     width: 100%;
-    padding: 16px 0;
+    padding: 16px;
     display: flex;
     justify-content: start;
     align-items: center;
     gap: 10px;
+    border-bottom: 1px solid #E6E6E6;
 }
 .eachPgeContntHdr {
     font-size: 18px;

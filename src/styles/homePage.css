@@ -8,17 +8,18 @@
     width: 100%;
     margin: auto;
     height: 100dvh;
-    padding: 0 12px;
+    /* padding: 0 12px; */
 }
-/* .homePgWrappr {
+.homePgWrappr {
     width: 100%;
-    padding: 0 12px;
-} */
+    height: 100%;
+    padding: 16px;
+}
 .schoolName {
     font-size: 18px;
     font-weight: 600;
     color: #000;
-    padding: 12px 0;
+    padding: 0 0 12px;
     margin: 0;
 }
 .commonFntSz {
@@ -52,8 +53,8 @@
 }
 .dtlsInfrmtnCrdPar {
     width: 100%;
-    max-height: 600px;
-    height: 100%;
+    /* max-height: 600px; */
+    /* height: 100%; */
     overflow: hidden;
     display: grid;
     grid-template-columns: repeat(2, 1fr);

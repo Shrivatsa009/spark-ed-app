@@ -7,23 +7,13 @@
     align-items: center;
     gap: 20px;
 }
-.stdListTbleWrpr,
-.clsStdListTbl {
+.stdListTbleWrpr {
     width: 100%;
 }
-.clsStdListTbl th,
-.clsStdListTbl td {
-    text-align: center;
-    padding: 10px;
+.stdListBdyPar {
+    height: calc(100vh - 202px) !important;
 }
-.clsStdListTbl td {
-    font-size: 14px;
-    font-weight: 500;
-    color: gray;
-}
-.clsStdListTbl th {
-    border-bottom: 1px solid #000;
-    font-size: 14px;
-    font-weight: 600;
-    color: #000;
+.stuListWthSrcPar {
+    width: 100%;
+    padding: 0 12px 12px;
 }
