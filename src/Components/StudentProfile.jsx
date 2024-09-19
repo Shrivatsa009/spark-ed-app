@@ -9,32 +9,30 @@ export default function StudentProfile() {
   return (
     <div className='studentprofWrppr'>
         <CommonHeading ContentHeader="Student Profile" /> 
-        {/* <div className="searchbox">
-            <img src="#" alt="Search Icon" />
-            <input className='searchInp' type="text" name="" id="" placeholder='Search' />
-        </div> */}
-        <SearchBar />
-        <div className="studprofStdNamePar">
-            <Link to="/studentprofile/studentlist" className="stdprofStdName">
-                <p className="stdNameTxt">4th std, C sec</p>
-                <img src={rightArrWht} alt="right icon" />
-            </Link>
-            <Link to="/studentprofile/studentlist" className="stdprofStdName">
-                <p className="stdNameTxt">5th std, A sec</p>
-                <img src={rightArrWht} alt="right icon" />
-            </Link>
-            <Link to="/studentprofile/studentlist" className="stdprofStdName">
-                <p className="stdNameTxt">6th std, A sec</p>
-                <img src={rightArrWht} alt="right icon" />
-            </Link>
-            <Link to="/studentprofile/studentlist" className="stdprofStdName">
-                <p className="stdNameTxt">6th std, C sec</p>
-                <img src={rightArrWht} alt="right icon" />
-            </Link>
-            <Link to="/studentprofile/studentlist" className="stdprofStdName">
-                <p className="stdNameTxt">7th std, A sec</p>
-                <img src={rightArrWht} alt="right icon" />
-            </Link>
+        <div className="stuProfContntWrpr">
+            <SearchBar />
+            <div className="studprofStdNamePar">
+                <Link to="/studentprofile/studentlist" className="stdprofStdName">
+                    <p className="stdNameTxt">4th std, C sec</p>
+                    <img src={rightArrWht} alt="right icon" />
+                </Link>
+                <Link to="/studentprofile/studentlist" className="stdprofStdName">
+                    <p className="stdNameTxt">5th std, A sec</p>
+                    <img src={rightArrWht} alt="right icon" />
+                </Link>
+                <Link to="/studentprofile/studentlist" className="stdprofStdName">
+                    <p className="stdNameTxt">6th std, A sec</p>
+                    <img src={rightArrWht} alt="right icon" />
+                </Link>
+                <Link to="/studentprofile/studentlist" className="stdprofStdName">
+                    <p className="stdNameTxt">6th std, C sec</p>
+                    <img src={rightArrWht} alt="right icon" />
+                </Link>
+                <Link to="/studentprofile/studentlist" className="stdprofStdName">
+                    <p className="stdNameTxt">7th std, A sec</p>
+                    <img src={rightArrWht} alt="right icon" />
+                </Link>
+            </div>
         </div>
     </div>
   )

@@ -30,7 +30,7 @@ export default function MarkAttendance() {
                 </div>
                 <div className="stdNameAttdnce">
                     <div className="frstPrd stdAttdnceMxWdth">
-                        <span className="commonFntSz">4th std, C sec</span>
+                        <span className="commonFntSz">5th std, A sec</span>
                     </div>
                     <button className="markAttendPic">
                         <img src={editIcon} alt="Attendance" />
@@ -38,7 +38,7 @@ export default function MarkAttendance() {
                 </div>
                 <div className="stdNameAttdnce">
                     <div className="frstPrd stdAttdnceMxWdth">
-                        <span className="commonFntSz">4th std, C sec</span>
+                        <span className="commonFntSz">6th std, A sec</span>
                     </div>
                     <button className="markAttendPic">
                         <img src={editIcon} alt="Attendance" />
@@ -46,7 +46,7 @@ export default function MarkAttendance() {
                 </div>
                 <div className="stdNameAttdnce">
                     <div className="frstPrd stdAttdnceMxWdth">
-                        <span className="commonFntSz">4th std, C sec</span>
+                        <span className="commonFntSz">6th std, B sec</span>
                     </div>
                     <button className="markAttendPic">
                         <img src={editIcon} alt="Attendance" />
@@ -54,7 +54,7 @@ export default function MarkAttendance() {
                 </div>
                 <div className="stdNameAttdnce">
                     <div className="frstPrd stdAttdnceMxWdth">
-                        <span className="commonFntSz">4th std, C sec</span>
+                        <span className="commonFntSz">7th std, A sec</span>
                     </div>
                     <button className="markAttendPic">
                         <img src={editIcon} alt="Attendance" />

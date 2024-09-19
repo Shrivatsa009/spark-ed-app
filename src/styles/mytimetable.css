@@ -1,11 +1,11 @@
 
-.myTimeTbleWrappr {
+/* .myTimeTbleWrappr {
     width: 100%;
     padding: 0 0 12px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 10px;
+} */
+.timeTblContPar {
+    margin-top: 14px;
+    padding: 0 12px 12px;
 }
 .dvCalendar {
     width: 100%;
@@ -17,6 +17,8 @@
     color: darkslategrey;
     border: 1px solid gray;
     border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
 }
 .commonFntSz.dateTxt {
     color: #000;

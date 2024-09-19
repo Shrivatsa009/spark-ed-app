@@ -5,17 +5,13 @@ import studentProfile from '../images/stu_prof.svg'
 import myprofile from '../images/my_prof.svg'
 import community from '../images/community.svg'
 import contactSup from '../images/support.svg'
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import SearchBar from './SearchBar'
 
 export default function HomePage() {
   return (
     <div className='homePgWrappr'>
         <h3 className="schoolName">National Public School</h3>
-        {/* <div className="searchbox">
-            <img src="#" alt="Search Icon" />
-            <input className='searchInp' type="text" name="" id="" placeholder='Search' />
-        </div> */}
         <SearchBar />
         <p className="commonFntSz tchrNameWthHlo">Hello <span className="tchrNameParaTxt">Teacher's Name</span> </p>
         <div className='dtlsInfrmtnCrdPar'>
