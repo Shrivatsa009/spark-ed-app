@@ -17,6 +17,8 @@
     color: darkslategrey;
     border: 1px solid gray;
     border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
 }
 .commonFntSz.dateTxt {
     color: #000;

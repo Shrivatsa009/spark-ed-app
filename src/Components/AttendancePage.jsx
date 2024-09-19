@@ -3,6 +3,7 @@ import CommonHeading from './CommonHeading'
 import '../styles/attendancePg.css'
 import CommonBtn from './CommonBtn'
 import right_arrWht from '../images/rht_arr_wht.svg'
+import { Link } from 'react-router-dom'
 
 export default function AttendancePage() {
   return (
@@ -11,10 +12,10 @@ export default function AttendancePage() {
             <CommonHeading ContentHeader="4th std, C sec" />
             <div className="attPgMainContainer">
                 <div className="attndcPgContntPar">
-                    <div className="dvCalendar mrkAttndceClndr">
+                    <Link to="myCalendar" className="dvCalendar mrkAttndceClndr">
                         <span className="commonFntSz">9th Mar 2024</span>
                         <img src={right_arrWht} alt="right icon" />
-                    </div>
+                    </Link>
                     {/* <CalendarDv /> */}
                     <div className="tbleMainWrppr">
                         <div className="tblHdng">

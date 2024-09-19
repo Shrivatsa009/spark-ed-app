@@ -9,8 +9,8 @@ export default function CommonHeading(props) {
         navigate(-1)
     };
   return (
-    <div className='eachPageHdng' onClick={BackClick}>
-        <img className='backBtnPic' src={leftArr} alt="Arrow" />
+    <div className='eachPageHdng'>
+        <img className='backBtnPic' src={leftArr} alt="Arrow" onClick={BackClick} />
         <p className="eachPgeContntHdr">{props.ContentHeader}</p>
     </div>
   )

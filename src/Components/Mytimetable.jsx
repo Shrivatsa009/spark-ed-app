@@ -2,17 +2,18 @@ import React from 'react'
 import '../styles/mytimetable.css'
 import CommonHeading from './CommonHeading'
 import right_arr from '../images/right_arr.svg'
+// import Calendar from 'react-calendar'
+import { Link } from 'react-router-dom'
 
 export default function Mytimetable() {
   return (
     <div className='myTimeTbleWrappr'>
         <CommonHeading ContentHeader="My Time Table" />
         <div className="timeTblContPar">
-            <div className="dvCalendar">
+            <Link to="/mytimetable/myCalendar" className="dvCalendar">
                 <span className="commonFntSz dateTxt">9th Mar 2024</span>
                 <img src={right_arr} alt="right icon" />
-            </div>
-            {/* <CalendarDv /> */}
+            </Link>
             <div className="timeTblPar">
                 <div className="periodPar">
                     <div className="frstPrd">
