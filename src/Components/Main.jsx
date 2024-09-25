@@ -10,6 +10,7 @@ import MyProfile from './MyProfile';
 import ContactSupport from './ContactSupport';
 import StudentMyProfile from './StudentMyProfile';
 import MyCalendar from './MyCalendar';
+import Community from './Community';
 
 export default function MainPage() {
   return (
@@ -25,7 +26,7 @@ export default function MainPage() {
             <Route path="/myprofile" element={<MyProfile />} />
             <Route path="/mytimetable/myCalendar" element={<MyCalendar />} />
             <Route path="/markattendance/attendance/myCalendar" element={<MyCalendar />} />
-            {/* <Route path="/community" element={<Community />} /> */}
+            <Route path="/community" element={<Community />} />
             <Route path="/contactsupport" element={<ContactSupport />} />
         </Routes>
       </Router>
